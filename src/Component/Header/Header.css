@@ -1,0 +1,14 @@
+.navbar {
+  height: 15vh;
+  background-color: brown;
+  padding-left: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+.Link {
+  padding-left: 10px;
+}

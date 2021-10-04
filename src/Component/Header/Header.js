@@ -1,16 +1,16 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './Header.css';
+import NavMenu from '../NavMenu/NavMenu';
 
 const Header = () => {
     return (
-        <div>
-            <h1>this is header</h1>
-
-            <NavLink>
-                <Link to 
-            </NavLink>
-        </div>
+<NavMenu></NavMenu>
     );
 };
 
 export default Header;
+
+
+
+

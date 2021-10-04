@@ -3,31 +3,41 @@ import './App.css';
 import { BrowserRouter , Switch,Route} from 'react-router-dom';
 import Home from './Component/Home/Home';
 import Header from './Component/Header/Header';
-import About from './Component/About/About';
-import Services from './Component/Services/Services';
+import AboutUs from './Component/AboutUs/AboutUs';
+import Courses from './Component/Courses/Courses';
+
+import Footer from './Component/Footer/Footer';
+import ContactUs from './Component/ContactUs/ContactUs';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <BrowserRouter>
+      <Header></Header>
       <Switch>
-      <Route path="/home">
+<Route path="/home">
 <Home></Home>
       </Route>
-<Route path="/">
-  <Header></Header>
+
+<Route path="/services">
+  <Courses></Courses>
+</Route>
+
+<Route path="/contact">
+  <ContactUs></ContactUs>
 </Route>
 
 <Route path="/about">
-  <About></About>
+  <AboutUs></AboutUs>
 </Route>
 
-<Route path="/services">
-  <Services></Services>
-</Route>
+
       
       </Switch>
       </BrowserRouter>
+
+      <Footer></Footer>
+
     </div>
   );
 }
