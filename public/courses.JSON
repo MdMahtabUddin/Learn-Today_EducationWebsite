@@ -12,14 +12,14 @@
         "instructor": "Jhankar mahbub",
         "price": 3400,
         
-        "image": "https://imgur.com/JgPuWcS.jpg"
+        "image": "https://imgur.com/wkMMGh1.jpg"
     },
     {
         "id": "102",
         "title": "C+ Programing",
         "instructor": "Anisul Islam",
         "price": 19500,
-        "image": "https://i.imgur.com/UsEgFbi.jpg"
+        "image": "https://i.imgur.com/zZXtTH8.jpg"
     },
     {
         "id": "122",
@@ -27,7 +27,7 @@
         "instructor": "Cooler Master",
         "price": 7500,
         
-        "image": "https://i.imgur.com/46ZMXlb.jpg"
+        "image": "https://i.imgur.com/zSew1s4.jpg"
     },
     {
         "id": "103",
@@ -35,21 +35,21 @@
         "instructor": "Sakib Muhiyan",
         "price": 35500,
         
-        "image": "https://i.imgur.com/np5cH2l.jpg"
+        "image": "https://i.imgur.com/TTs8B5I.jpg"
     },
     {
         "id": "123",
         "title": "Rust Language ",
         "instructor": "Joarder Hosssain",
         "price": 198000,
-        "image": "https://i.imgur.com/glOEbcY.jpg"
+        "image": "https://imgur.com/LdTHGTt.jpg"
     },
     {
         "id": "104",
         "title": "PHP",
         "instructor": "Saeed siddek",
         "price": 28000,
-        "image": "https://i.imgur.com/hrrRgdV.jpg"
+        "image": "https://i.imgur.com/VpSUB66.jpg"
     },
     {
         "id": "105",
@@ -57,7 +57,7 @@
         "instructor": "Nowshin ",
         "price": 11450,
     
-        "image": "https://i.imgur.com/EeTouUR.jpg"
+        "image": "https://i.imgur.com/ZGSON8X.jpg"
     },
     {
         "id": "121",
@@ -65,7 +65,7 @@
         "instructor": "Abdus sattar",
         "price": 12500,
         
-        "image": "https://i.imgur.com/HuPrhYc.png"
+        "image": "https://i.imgur.com/TTs8B5I.jpg"
     },
     
     {
@@ -73,6 +73,6 @@
         "title": "C Programing",
         "instructor": "Joader Hossain",
         "price": 35500,
-        "image": "https://i.imgur.com/np5cH2l.jpg"
+        "image": "https://i.imgur.com/D1EWyg0.jpg"
     }
 ]
