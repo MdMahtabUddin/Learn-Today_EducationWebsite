@@ -4,28 +4,28 @@
         "title": "Java ",
         "instructor": "BM Mainul",
         "price": 14400,
-        "image": "https://imgur.com/iwf3z2l"
+        "image": "https://imgur.com/iwf3z2l.jpg"
     },
     {
         "id": "124",
         "title": "C Programing",
         "instructor": "Joader Hossain",
         "price": 3400,
-        "image": "https://imgur.com/vhVrbpQ"
+        "image": "https://imgur.com/vhVrbpQ.jpg"
     },
     {
         "id": "102",
         "title": "Python",
         "instructor": "Nowshin Nawar",
         "price": 19500,
-        "image": "https://imgur.com/4IBpSFq"
+        "image": "https://imgur.com/4IBpSFq.jpg"
     },
     {
         "id": "122",
         "title": "JavaScript",
         "instructor": "Abdus Sattar",
         "price": 7500,
-        "image": "https://imgur.com/JgPuWcS"
+        "image": "https://imgur.com/JgPuWcS.jpg"
     }
 
     

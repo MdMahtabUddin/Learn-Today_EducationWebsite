@@ -1,0 +1,19 @@
+.banner-container {
+  background-image: url("https://i.ibb.co/R4gjNyX/img-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 250px 0;
+  color: #fff;
+}
+
+.banner-container h1 {
+  font-size: 60px;
+  color: rgb(78, 247, 239);
+  margin-top: 40px;
+}
+.banner-container h3 {
+  font-size: 30px;
+  color: rgb(39, 27, 59);
+}

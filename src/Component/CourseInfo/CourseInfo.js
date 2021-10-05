@@ -3,7 +3,7 @@ import Home from '../Home/Home';
 
 
 const CourseInfo = (props) => {
-    const {title, price, image} =props.home;
+    const {title, price, image} =props.course;
     
     return (
         <Col>

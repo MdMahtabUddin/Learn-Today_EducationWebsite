@@ -2,16 +2,20 @@ import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import '../Home/Home.css';
+import CourseInfo from '../CourseInfo/CourseInfo';
 
 
-const Home = (props) => {
+const Home = () => {
   const [course , setCourse] =useState([]);
 
   useEffect(()=>{
-      fetch('/course.JSON')
+      fetch('./course.JSON')
       .then(res=>res.json())
       .then(data=>setCourse(data));
   },[])
+
+  
 
 
 
@@ -19,9 +23,10 @@ const Home = (props) => {
     return (
       
       <div>
+
         <Row xs={1} md={1} className="g-4">
   {
-      course.map(home=> <Home home={home}></Home> )
+      course.map(course=> <CourseInfo course={course}></CourseInfo> )
   }
 
   

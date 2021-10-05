@@ -13,7 +13,7 @@ const Services = () => {
     return (
         <Row xs={1} md={1} className="g-4">
         {
-            allCourse.map(course=> <course course={course}></course> )
+            allCourse.map(course=> <allCourse course={course}></allCourse> )
         }
       </Row>  
     );
