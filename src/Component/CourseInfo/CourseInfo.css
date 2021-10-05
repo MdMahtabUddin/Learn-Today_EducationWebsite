@@ -1,0 +1,12 @@
+.card-img {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.card {
+  padding: 10px;
+  height: 20rem;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(21, 173, 233);
+}

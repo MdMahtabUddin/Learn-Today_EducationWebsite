@@ -1,18 +1,21 @@
 import { ButtonGroup, Card, Col, Row } from 'react-bootstrap';
-import Home from '../Home/Home';
+import "./CourseInfo.css";
 
 
 const CourseInfo = (props) => {
-    const {title, price, image} =props.course;
+    const {title, price,instructor, image} =props.course;
     
     return (
         <Col>
-      <Card>
+      <Card className="card shadow-lg">
         <Card.Img variant="top" src={image} />
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
+          <Card.Title>Course: {title}</Card.Title>
           <Card.Text>
-            {price}
+            Course fee :{price}
+          </Card.Text>
+          <Card.Text>
+            Instructor :{instructor}
           </Card.Text>
         </Card.Body>
       </Card>

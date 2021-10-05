@@ -5,7 +5,12 @@ import NavMenu from '../NavMenu/NavMenu';
 
 const Header = () => {
     return (
-<NavMenu></NavMenu>
+        <div>
+            <NavMenu></NavMenu>
+        
+
+</div>
+
     );
 };
 

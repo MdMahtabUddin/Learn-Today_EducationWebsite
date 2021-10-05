@@ -6,7 +6,7 @@ const ContactUs = () => {
     return (
       <div className="admit-form">
       <Form className="container py-5 ">
-      <h1>Admission form</h1>
+      <h1>Contact Us form</h1>
   <Row className="mb-5">
       <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label>Email</Form.Label>
@@ -21,37 +21,15 @@ const ContactUs = () => {
 
   <Form.Group className="mb-5" controlId="formGridAddress1">
       <Form.Label>Address</Form.Label>
-      <Form.Control placeholder="1234 Main St" />
+      <Form.Control placeholder="1234 Road no." />
   </Form.Group>
 
-  <Form.Group className="mb-5" controlId="formGridAddress2">
-      <Form.Label>Address 2</Form.Label>
-      <Form.Control placeholder="Apartment, studio, or floor" />
-  </Form.Group>
 
-  <Row className="mb-3">
-      <Form.Group as={Col} controlId="formGridCity">
-      <Form.Label>City</Form.Label>
-      <Form.Control />
-      </Form.Group>
+  <div className="form-group mt-2">
+        <textarea className="form-control text-white"rows="3"placeholder="message"></textarea>
+    </div>
 
-      <Form.Group as={Col} controlId="formGridState">
-      <Form.Label>State</Form.Label>
-      <Form.Select defaultValue="Choose...">
-          <option>Choose...</option>
-          <option>...</option>
-      </Form.Select>
-      </Form.Group>
-
-      <Form.Group as={Col} controlId="formGridZip">
-      <Form.Label>Zip</Form.Label>
-      <Form.Control />
-      </Form.Group>
-  </Row>
-
-  <Form.Group className="mb-3" id="formGridCheckbox">
-      <Form.Check type="checkbox" label="Check me out" />
-  </Form.Group>
+  <br></br>
 
   <Button variant="primary" type="submit" className="btn btn-lg btn-primary">
       Submit

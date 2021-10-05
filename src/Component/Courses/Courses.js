@@ -1,21 +1,27 @@
 import React, { useEffect } from 'react';
 import { useState } from "react";
-import { Row } from 'react-bootstrap';
+import { Row,Container } from 'react-bootstrap';
+import AllCourses from '../AllCourses/AllCourses';
 
 const Services = () => {
 
-    const [allCourse, setAllCourse] =useState([]);
-    useEffect(()=>{
-        fetch('./allCourses.JSON')
-        .then(res=>res.json())
-        .then(data=>setAllCourse(data));
-    },[])
-    return (
-        <Row xs={1} md={1} className="g-4">
-        {
-            allCourse.map(course=> <allCourse course={course}></allCourse> )
-        }
-      </Row>  
+    const [courses, setCourses] = useState([]);
+  useEffect(() => {
+    fetch('./courses.JSON')
+      .then((res) => res.json())
+      .then((data) => setCourses(data));
+  }, []);
+  return (
+    <div className="home">
+      <Container>
+          <h3 className="mb-4">All Courses</h3>
+        <Row xs={1} md={2} lg={3} className="g-4">
+          {
+          courses.map(courses => <AllCourses courses={courses} key={courses.id}></AllCourses>)
+          }
+        </Row>
+      </Container>
+    </div> 
     );
 };
 
