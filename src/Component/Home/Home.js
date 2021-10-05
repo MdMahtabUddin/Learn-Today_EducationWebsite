@@ -17,11 +17,17 @@ const Home = (props) => {
 
     
     return (
-      <Row xs={1} md={1} className="g-4">
+      
+      <div>
+        <Row xs={1} md={1} className="g-4">
   {
       course.map(home=> <Home home={home}></Home> )
   }
-</Row>  
+
+  
+</Row> 
+      </div>
+
     );
 };
 

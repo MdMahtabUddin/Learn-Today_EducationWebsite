@@ -8,7 +8,7 @@ const NavMenu = () => {
       <Navbar bg="primary" variant={"dark"} expand="lg" className="navbar">
       <Container>
         <Navbar.Brand to="/home">
-          
+          <h3>Learn today</h3>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

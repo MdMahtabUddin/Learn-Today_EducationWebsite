@@ -1,0 +1,23 @@
+.about-container {
+  background-image: url("https://i.ibb.co/wdcjyth/about.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 300px;
+  padding-bottom: 350px;
+}
+.about-container h1 {
+  font-size: 60px;
+}
+
+.about-item li {
+  text-align: left;
+  list-style: none;
+}
+.about-item li span {
+  color: rgb(94, 164, 245);
+}
+
+.about-item li button {
+  text-align: left;
+}
