@@ -8,6 +8,7 @@ import Courses from './Component/Courses/Courses';
 
 import Footer from './Component/Footer/Footer';
 import ContactUs from './Component/ContactUs/ContactUs';
+import NotFound from './Component/Home/NotFound/NotFound';
 
 function App() {
   return (
@@ -15,25 +16,28 @@ function App() {
       <BrowserRouter>
       <Header></Header>
       <Switch>
-<Route path="/home">
-<Home></Home>
-      </Route>
-
-<Route path="/services">
-  <Courses></Courses>
-</Route>
-
-<Route path="/contact">
-  <ContactUs></ContactUs>
-</Route>
-
-<Route path="/about">
-  <AboutUs></AboutUs>
-</Route>
-
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="/home">
+          <Home></Home>
+          </Route>
+        <Route path="/courses">
+        <Courses></Courses>
+        </Route>
+        <Route path="/about">
+          <AboutUs></AboutUs>
+        </Route>
+        <Route path="/contact">
+          <ContactUs path="/contact"></ContactUs>
+        </Route>
+        <Route  path="*">
+          <NotFound></NotFound>
+        </Route>
+        </Switch>
 
       
-      </Switch>
+      
       </BrowserRouter>
 
       <Footer></Footer>
