@@ -24,7 +24,7 @@ const Home = () => {
       
       <div>
         <div className="banner-container text-start">
-            {/* <h1 className="ms-5">Start a new day with Learn Today </h1> */}
+            <h1 className="ms-5">Start a new day with Learn Today </h1>
             <button className="btn btn-lg-outline btn-info fs-5 fw-bolder ms-5 text-primary">Learn More</button>
             </div>
 <h3 className="mb-4">Popular Course</h3>
