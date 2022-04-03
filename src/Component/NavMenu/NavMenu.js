@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Form, FormControl, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from 'react-router-dom';
+import logo from './ilearn.gif'
 
 import "./NavMenu.css";
 const NavMenu = () => {
@@ -8,7 +9,11 @@ const NavMenu = () => {
       <Navbar bg="dark" variant={"dark"} expand="sm" className="navbar">
       <Container>
         <Navbar.Brand to="/home">
-          <h3>Learn today</h3>
+        {/* <img
+      // className=" w-100"
+      src={logo}
+      alt="First slide"
+    /> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
