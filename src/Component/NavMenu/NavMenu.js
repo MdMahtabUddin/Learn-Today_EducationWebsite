@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import "./NavMenu.css";
 const NavMenu = () => {
     return (
-      <Navbar bg="primary" variant={"dark"} expand="lg" className="navbar">
+      <Navbar bg="dark" variant={"dark"} expand="sm" className="navbar">
       <Container>
         <Navbar.Brand to="/home">
           <h3>Learn today</h3>
