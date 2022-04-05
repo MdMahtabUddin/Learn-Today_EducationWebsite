@@ -61,7 +61,7 @@ const Home = () => {
   </Carousel.Item> */}
 </Carousel>
       <h3 className="mb-4">Popular Course</h3>
-      <Row xs={1} md={2} lg={4} sm={1} className="g-4">
+      <Row xs={1} md={2} lg={4} className="g-4">
         {
           course.map(course => <CourseInfo course={course}></CourseInfo>)
         }

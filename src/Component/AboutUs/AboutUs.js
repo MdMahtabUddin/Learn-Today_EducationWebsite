@@ -12,7 +12,7 @@ const About = () => {
       <div className="container my-5 py-5">
       <Row >
           <Col className="about-content text-start">
-              <h1>About Us</h1>
+              {/* <h1>About Us</h1> */}
               <p className="fs-5">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, distinctio. loren5
               Lorem ipsum dolor sit amet.</p>
               <div className="about-item fs-5 fw-bolder text-start">
