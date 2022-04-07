@@ -6,13 +6,13 @@
         "price": 14400,
         "image": "https://i.imgur.com/TN4di6Z.jpg"
     },
-    {
-        "id": "124",
-        "title": "C Programing",
-        "instructor": "Joader Hossain",
-        "price": 3400,
-        "image": "https://imgur.com/vhVrbpQ.jpg"
-    },
+    // {
+    //     "id": "124",
+    //     "title": "C Programing",
+    //     "instructor": "Joader Hossain",
+    //     "price": 3400,
+    //     "image": "https://imgur.com/vhVrbpQ.jpg"
+    // },
     {
         "id": "102",
         "title": "Python",
