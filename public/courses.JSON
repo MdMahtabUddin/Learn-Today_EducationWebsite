@@ -4,7 +4,7 @@
         "title": "Java",
         "instructor": "BM mainul",
         "price": 14400,
-        "image": "https://imgur.com/iwf3z2l.jpg"
+        "image": "https://i.imgur.com/7NGhPlc.png"
     },
     {
         "id": "124",
@@ -12,14 +12,14 @@
         "instructor": "Jhankar mahbub",
         "price": 3400,
         
-        "image": "https://imgur.com/wkMMGh1.jpg"
+        "image": "https://i.imgur.com/6pqabpd.png"
     },
     {
         "id": "102",
-        "title": "C+ Programing",
+        "title": "C++ Programing",
         "instructor": "Anisul Islam",
         "price": 19500,
-        "image": "https://i.imgur.com/zZXtTH8.jpg"
+        "image": "https://i.imgur.com/3PCz3qG.jpg"
     },
     {
         "id": "122",
@@ -27,7 +27,7 @@
         "instructor": "Cooler Master",
         "price": 7500,
         
-        "image": "https://i.imgur.com/zSew1s4.jpg"
+        "image": "https://i.imgur.com/TpY1PHV.png"
     },
     {
         "id": "103",
