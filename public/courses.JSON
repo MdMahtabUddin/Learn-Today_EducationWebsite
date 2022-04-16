@@ -35,37 +35,29 @@
         "instructor": "Sakib Muhiyan",
         "price": 35500,
         
-        "image": "https://i.imgur.com/TTs8B5I.jpg"
+        "image": "https://i.imgur.com/Soycq2Z.jpg"
     },
     {
         "id": "123",
         "title": "Rust Language ",
         "instructor": "Joarder Hosssain",
         "price": 198000,
-        "image": "https://imgur.com/LdTHGTt.jpg"
+        "image": "https://i.imgur.com/5drcO0n.jpg"
     },
     {
         "id": "104",
         "title": "PHP",
         "instructor": "Saeed siddek",
         "price": 28000,
-        "image": "https://i.imgur.com/VpSUB66.jpg"
+        "image": "https://i.imgur.com/y6yOCGY.jpg"
     },
     {
         "id": "105",
-        "title": "Mysql",
+        "title": "Kotlin",
         "instructor": "Nowshin ",
         "price": 11450,
     
-        "image": "https://i.imgur.com/ZGSON8X.jpg"
-    },
-    {
-        "id": "121",
-        "title": "Android Basic",
-        "instructor": "Abdus sattar",
-        "price": 12500,
-        
-        "image": "https://i.imgur.com/TTs8B5I.jpg"
+        "image": "https://i.imgur.com/KbEWhDw.png"
     },
     
     {
@@ -73,6 +65,6 @@
         "title": "C Programing",
         "instructor": "Joader Hossain",
         "price": 35500,
-        "image": "https://i.imgur.com/D1EWyg0.jpg"
+        "image": "https://i.imgur.com/3PCz3qG.jpg"
     }
 ]
