@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, } from 'react-bootstrap';
 import '../AboutUs/AboutUs.css'
+import image from './about.gif'
 
 const About = () => {
     return (
@@ -13,8 +14,7 @@ const About = () => {
                 <Row >
                     <Col className="about-content text-start">
             {/* //   <h1>About Us</h1> */}
-                        <p className="fs-5">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, distinctio. loren5
-                            Lorem ipsum dolor sit amet.</p>
+                        
                         <div className="about-item fs-5 fw-bolder text-start">
                             <li><span><i className="far fa-check-circle"></i></span> Full lifetime access</li>
                             <li> <span><i className="far fa-check-circle"></i></span> 20+ downloadable resources</li>
@@ -24,7 +24,7 @@ const About = () => {
                         </div>
                     </Col>
                     <Col className="about-img">
-                        <img className="img-fluid" src="https://imgur.com/5oP3vKg.jpg" alt="" />
+                        <img className="img-fluid" src={image} alt="" />
                     </Col>
                 </Row>
             </div>

@@ -5,7 +5,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="footer-bottom">
-            Copyright © 2021 All Rights Reserved
+            Copyright © 2022 All Rights Reserved
           </div>
     );
 };

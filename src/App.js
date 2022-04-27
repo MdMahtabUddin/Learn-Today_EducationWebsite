@@ -7,7 +7,7 @@ import AboutUs from './Component/AboutUs/AboutUs';
 import Courses from './Component/Courses/Courses';
 
 import Footer from './Component/Footer/Footer';
-import ContactUs from './Component/ContactUs/ContactUs';
+// import ContactUs from './Component/ContactUs/ContactUs';
 import NotFound from './Component/Home/NotFound/NotFound';
 
 function App() {
@@ -28,9 +28,9 @@ function App() {
         <Route path="/about">
           <AboutUs></AboutUs>
         </Route>
-        <Route path="/contact">
+        {/* <Route path="/contact">
           <ContactUs path="/contact"></ContactUs>
-        </Route>
+        </Route> */}
         <Route  path="*">
           <NotFound></NotFound>
         </Route>

@@ -14,12 +14,15 @@
         "image": "https://i.imgur.com/3PCz3qG.jpg"
     },
     {
-        "id": "102",
-        "title": "Python",
-        "instructor": "Nowshin Nawar",
-        "price": 19500,
-        "image": "https://i.imgur.com/TpY1PHV.png"
+        "id": "103",
+        "title": "Go Lang",
+        "instructor": "Sakib Muhiyan",
+        "price": 35500,
+        
+        "image": "https://i.imgur.com/Soycq2Z.jpg"
     },
+    
+    
     {
         "id": "122",
         "title": "JavaScript",

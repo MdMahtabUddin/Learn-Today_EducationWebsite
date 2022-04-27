@@ -1,15 +1,15 @@
-.card-img {
-  width: 60%;
-  margin: 0 auto;
-  padding: 10px;
-  height: 60%;
-
-  border-radius: 30px !important;
+.card{
+  /* height: 22rem; */
+  transition: 0.4s;
+  border-radius: 7px;
 }
-.card {
-  padding: 10px;
-  height: 23rem !important;
-  border: none;
-  border-radius: 10px;
-  background-color: rgb(253, 250, 250);
+
+.card:hover{
+  box-shadow: 10px 10px 24px -13px rgba(0, 0, 0, 0.75);
+  /* cursor: pointer; */
+}
+
+.card-link{
+  text-decoration: none;
+  color: grey;
 }

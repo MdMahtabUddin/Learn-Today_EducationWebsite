@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Carousel, Col, Row } from 'react-bootstrap';
+import { Card, Carousel, Col, Container, Row } from 'react-bootstrap';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import '../Home/Home.css';
@@ -23,51 +23,41 @@ const Home = () => {
   return (
 
     <div>
-      <Carousel>
-  <Carousel.Item>
-    <img
-      className=" w-100"
-      src={image}
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      {/* <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-    </Carousel.Caption>
-  </Carousel.Item>
-  {/* <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
-      alt="Second slide"
-    />
+      <div className="container hero-section py-5">
+            <div className="row justify-content-center align-items-center">
+                <div className="col-md-6 lh-lg" data-aos="fade-right">
+                    <small className="fw-light text-secondary">For Better Wellness & Hope</small>
+                    <h1>Welcome to Learn Today
+                        <br />
+                        
 
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item> */}
-  {/* <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
-      alt="Third slide"
-    />
+                    </h1>
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item> */}
-</Carousel>
-      <h3 className="mb-4">Popular Course</h3>
-      <Row xs={1} md={2} lg={4} className="g-4">
+                    
+
+                </div>
+                <div className="col-md-6" data-aos="fade-left">
+                    <div>
+                        <img className="img-fluid w-100" src={image} alt="" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <Container>
+        <h2 className="my-3 text-center">
+                <span className="border-success border-2 border-bottom">
+                    Our Courses
+                </span>
+            </h2>
+      <div className="row row-cols-1 row-cols-md-4 g-4">
         {
           course.map(course => <CourseInfo course={course}></CourseInfo>)
         }
 
 
-      </Row>
+      </div>
+        </Container>
     </div>
 
   );

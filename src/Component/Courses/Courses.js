@@ -14,12 +14,16 @@ const Services = () => {
   return (
     <div className="home">
       <Container>
-          <h3 className="mb-4">All Courses</h3>
-        <Row xs={1} md={2} lg={3} className="g-4">
+      <h2 className="my-3 text-center">
+                <span className="border-success border-2 border-bottom">
+                    Our All Courses
+                </span>
+            </h2>
+        <div  className="row row-cols-1 row-cols-md-4 g-4">
           {
           courses.map(courses => <AllCourses courses={courses} key={courses.id}></AllCourses>)
           }
-        </Row>
+        </div>
       </Container>
     </div> 
     );

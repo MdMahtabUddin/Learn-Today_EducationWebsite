@@ -6,20 +6,21 @@ const AllCourses = (props) => {
   const {title, price,instructor, image} =props.courses;
     
     return (
-        <Col>
-      <Card className="card shadow-lg">
-        <Card.Img variant="top" src={image} />
-        <Card.Body>
-          <Card.Title>Course: {title}</Card.Title>
-          <Card.Text>
-            Course fee :{price}
-          </Card.Text>
-          <Card.Text>
-            Instructor :{instructor}
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
+      <div className="col">
+      <div className="card h-100">
+          <img src={image} className="card-img-top" alt={title} />
+          <div className="card-body text-secondary">
+              <h5 className="card-title">{title}</h5>
+              <h5 className="card-title">{instructor}</h5>
+              <p className="card-text">${price}</p>
+          </div>
+          <div className="card-footer">
+              
+                  <button className="btn btn-outline-dark">Enroll Course</button>
+              
+          </div>
+      </div>
+  </div>
     );
 };
 
